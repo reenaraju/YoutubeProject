@@ -23,8 +23,8 @@ class YoutubeVideoDownload:
                     YoutubeVideoDownload.SendMail(name, id, x)
 
     def SendMail(name, id, x):
-        email_from = "reenadummy@gmail.com"
-        email_password = "Reena@123"
+        email_from = "********"
+        email_password = "******"
         email_subject = "Youtube video download"
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
